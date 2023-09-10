@@ -1,6 +1,6 @@
 # Clarify
 
-Command Line application to help make your Python code better! Powered by Google's PaLM. (Currently Mac/Linux only)
+Command Line application to help make your Python code better by adding comments and docstrings! Powered by Google's PaLM. (Currently Mac/Linux only)
 
 ## Setup
 ### Clone the repository
