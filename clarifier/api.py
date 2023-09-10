@@ -27,7 +27,7 @@ def get_new_code(code_file_path) -> str:
     file.close()
 
 
-    prompt = "Rename the variables, functions, and classes to make more sense in the context of the code. Also enforce snake case. Then add docstrings to explain what the code does. The code is as follows: \n\n" + text
+    prompt = "Add comments and/or docstrings to make the code more readable. The code is as follows: \n\n" + text
 
     completion = palm.generate_text(
         model=model,

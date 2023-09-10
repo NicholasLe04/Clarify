@@ -28,5 +28,5 @@ then
     exit 1
 fi
 
-
-python3 ./clarifier/cli.py -f $file_directory
+starting_dir="$(dirname $0)"
+python3 $starting_dir/clarifier/cli.py -f $file_directory
