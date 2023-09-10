@@ -16,7 +16,7 @@ def highlight_diff(before, after):
     return '\n'.join(highlighted_code)
 
 def get_new_code(code_file_path) -> str:
-    palm.configure(api_key="AIzaSyD1O94WxFVfJCqRnKmFSnxD8Y7TXPvj2Qk")
+    palm.configure(api_key="")
     models = [m for m in palm.list_models() if 'generateText' in m.supported_generation_methods]
     model = models[0].name
 
