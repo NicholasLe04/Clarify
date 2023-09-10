@@ -21,3 +21,11 @@ git clone https://github.com/NicholasLe04/Clarify.git
 ./clarify.sh completion >> ~/.zshrc
 ```
 3. After doing the above, making a new terminal and typing `clarify` should work.
+
+## How to Use
+1. Run ```clarify``` followed by the path to the Python file you wish to clarify (relative to the current directory)
+
+Example:
+```sh
+clarify ./helloworld.py
+```
