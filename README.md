@@ -22,6 +22,14 @@ git clone https://github.com/NicholasLe04/Clarify.git
 ```
 3. After doing the above, making a new terminal and typing `clarify` should work.
 
+### Create .env file and add API key
+1. In the `Clarify` folder, create a file titled `.env`
+2. [Get a PaLM API key](https://developers.generativeai.google/tutorials/setup)
+3. Inside of the `.env` file, add the following code snippet:
+```env
+API_KEY="<your api key>"
+```
+
 ## How to Use
 1. Run ```clarify``` followed by the path to the Python file you wish to clarify (relative to the current directory)
 
